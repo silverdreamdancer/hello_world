@@ -1,0 +1,5 @@
+def FtoC(degf):
+  degc = (degf – 32) / 1.8
+  return degc
+tempf = 98.6
+tempc = FtoC(tempf)
