@@ -3,3 +3,8 @@ def FtoC(degf):
   return degc
 tempf = 98.6
 tempc = FtoC(tempf)
+
+def FtoC_andK(degf):
+  degc = (degf – 32) / 1.8
+  degk = degc + 273.15
+return degc, degk
